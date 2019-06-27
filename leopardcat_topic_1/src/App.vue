@@ -135,7 +135,7 @@
     <ScrollingMapp
       mapId = "scrolling-map-2-1"
       imgSrcMob="./img/mob1_7_1.jpg"
-      imgSrcWeb="./img/web1_7_1.jpg"
+      imgSrcWeb="./img/new1.jpg"
       backgroundColor="#011936"
       textPosition="left"
       :useFadeFlag=true

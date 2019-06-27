@@ -228,14 +228,19 @@ export default {
         transform: translate(0, 65.5%) scale(2.5);
       }
 
-      // 電腦
-      @media screen and (min-width: 1025px) {
-        transform: translate(15%, -15%) scale(0.6);
-      }
-
       // 平板
       @media screen and (min-width: 768px) and (max-width: 1024px) {
         transform: translate(15%, 40%) scale(1.3);
+      }
+
+      // 4:3
+      @media screen and (min-width: 1025px) and (max-width: 1280px) {
+        transform: translate(15%, 0%) scale(1);
+      }
+
+      // 電腦
+      @media screen and (min-width: 1281px) {
+        transform: translate(20%, -15%) scale(0.6);
       }
     }
   }
